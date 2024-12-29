@@ -9,7 +9,7 @@ export default function NavBar() {
 
   return (
     <nav>
-      <div className="navbar bg-base-100 h-10">
+      <div className="navbar bg-base-100 h-12">
         <Link
           href="/movies"
           className={`btn btn-ghost text-xl ${activeTab === 'movies' ? 'text-primary' : ''}`}
