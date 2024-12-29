@@ -16,7 +16,7 @@ const Portfolio = () => {
     </div>
 
     <div>
-        <h1 className='text-xl font-bold text-center text-black-50'>Portfolio</h1>
+        <h1 className='text-2xl font-bold text-center text-white'>Portfolio</h1>
     </div>
 
     

@@ -3,9 +3,9 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Music = () => {
   return (
-    <div className="h flex flex-col justify-between bg-black">
+    <div className="flex flex-col justify-between bg-black">
       {/* Heading Section - Top */}
-      <div className="h-2/5 flex justify-center items-center">
+      <div className="h-2/5 flex justify-center items-start">
         <h1 className="text-3xl text-center md:text-6xl font-bold text-white">
           Music
         </h1>
@@ -17,7 +17,7 @@ const Music = () => {
           src="https://lottie.host/a9a4ac5d-a3dc-4c93-b566-3e84e083f03d/ksHNBFTR7G.lottie"
           loop
           autoplay
-          className="w-36 md:w-60" 
+          className="md:w-56 h-56 l:w-80 h-80" 
         />
       </div>
     </div>

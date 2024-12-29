@@ -6,7 +6,7 @@ const Shows = () => {
     <div className='w-full flex justify-between items-center'>
         {/* Title Section */}
         <div className='w-1/2'>
-            <h1 className='text-5xl font-bold text-right text-white'>Shows</h1>
+            <h1 className='text-3xl l:text-5xl font-bold text-right text-teal-500'>Shows</h1>
         </div>
 
       {/* Lottie Animation */}
