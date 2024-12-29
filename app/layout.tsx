@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children, }: { children: React.ReactNode; }) {
   return (
-    <html lang="en" data-theme="cupcake">
+    <html lang="en" data-theme="retro">
       <body className={inter.className}>
         <NavBar/>
-        <div className="p-5">{children}</div> 
+        <div className="p-2">{children}</div> 
       </body>
     </html>
   );

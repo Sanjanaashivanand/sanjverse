@@ -12,10 +12,14 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        pulse: 'pulse 2s infinite',
+        bounce: 'bounce 1s infinite',
+      },
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["cupcake"],
+    themes: ["retro"],
   },
 } satisfies Config;
